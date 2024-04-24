@@ -160,7 +160,7 @@
       xh
       python3
       firefox-bin
-      exa
+      eza
       bat
       fd
       procs
@@ -401,8 +401,8 @@
       python3Packages.r2pipe
       python3Packages.unicorn
       radare2
-      cutter
       rizin
+      ropgadget
       stacks
       unicorn 
       valgrind
