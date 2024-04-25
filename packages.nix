@@ -538,7 +538,7 @@
       checksec
       chkrootkit
       lynis
-      safety-cli
+      # safety-cli
       tracee
       vulnix
     ];
