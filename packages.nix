@@ -461,6 +461,7 @@
       sslsplit
       testssl
       tlsx
+      tls
       sslscan
     ];
 
