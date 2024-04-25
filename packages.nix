@@ -183,7 +183,7 @@
       legitify
       osv-detector
       pip-audit
-      python310Packages.safety
+      # python310Packages.safety # circular, 3.11 safety is also used
       secretscanner
       # shhgit
       # skjold
