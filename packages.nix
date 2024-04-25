@@ -174,7 +174,7 @@
       credential-detector
       detect-secrets
       # freeze
-      garble
+      # garble # build failing 2024/4/24
       gitjacker
       gitleaks
       gitls
