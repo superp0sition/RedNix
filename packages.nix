@@ -114,7 +114,6 @@
     ];
 
     fuzzers = with pkgs; [
-      afl
       aflplusplus
       feroxbuster
       ffuf
