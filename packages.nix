@@ -2,6 +2,7 @@
   pkgs,
   inputs,
 }: let
+  connection = pkgs.haskell.lib.doJailbreak pkgs.haskellPackages.connection;
   packages = {
 
     RCL = with pkgs; [
@@ -460,7 +461,7 @@
       ssldump
       sslsplit
       testssl
-      (connection = pkgs.haskell.lib.doJailbreak pkgs.haskellPackages.connection)
+      connection
       # haskellPackages.tls
       tlsx
       sslscan
