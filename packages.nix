@@ -460,7 +460,7 @@
       ssldump
       sslsplit
       testssl
-      # haskellPackages.connection
+      (connection = pkgs.haskell.lib.doJailbreak pkgs.haskellPackages.connection)
       # haskellPackages.tls
       tlsx
       sslscan
