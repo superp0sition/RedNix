@@ -460,6 +460,7 @@
       ssldump
       sslsplit
       testssl
+      haskellPackages.connection
       haskellPackages.tls
       tlsx
       sslscan
