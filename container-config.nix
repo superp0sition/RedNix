@@ -29,7 +29,7 @@ in {
 
   # nix config
   nix = {
-    package = pkgs.nixUnstable;
+    package = pkgs.nixLatest;
     settings.extra-experimental-features = [
       "nix-command"
       "flakes"
